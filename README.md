@@ -1,3 +1,3 @@
 # PhotoManager
 
-A description of this package.
+簡易的開啟相簿、相機
