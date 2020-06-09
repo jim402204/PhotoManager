@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 //xcode Catalina 模擬器要篩圖 要先放到模擬器的路徑才能直接丟到模擬器中 apple bug
 
 public class PhotoManager: NSObject {
