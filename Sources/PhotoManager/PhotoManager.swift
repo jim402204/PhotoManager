@@ -56,9 +56,9 @@ public extension PhotoManager {
     
 }
 
-public extension PhotoManager: UIImagePickerControllerDelegate & UINavigationControllerDelegate {
+extension PhotoManager: UIImagePickerControllerDelegate & UINavigationControllerDelegate {
     
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+    public func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
         if let image = info[.originalImage] as? UIImage {
             didFinishPickingMediaWithInfo?(image)
